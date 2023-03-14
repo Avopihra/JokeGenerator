@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BD7758DE0CC476D8BFC546F /* Pods_JokeGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16132340048426FD3680FF51 /* Pods_JokeGenerator.framework */; };
+		CE786E3229C019F2008DBBD0 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE786E3129C019F2008DBBD0 /* RequestManager.swift */; };
+		CE786E3A29C01D72008DBBD0 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE786E3929C01D72008DBBD0 /* Joke.swift */; };
 		CEA2EB4429BEDE6B00828057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2EB4329BEDE6B00828057 /* AppDelegate.swift */; };
-		CEA2EB4629BEDE6B00828057 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2EB4529BEDE6B00828057 /* SceneDelegate.swift */; };
-		CEA2EB4829BEDE6B00828057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2EB4729BEDE6B00828057 /* ViewController.swift */; };
-		CEA2EB4B29BEDE6B00828057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA2EB4929BEDE6B00828057 /* Main.storyboard */; };
 		CEA2EB4D29BEDE6C00828057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA2EB4C29BEDE6C00828057 /* Assets.xcassets */; };
 		CEA2EB5029BEDE6C00828057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA2EB4E29BEDE6C00828057 /* LaunchScreen.storyboard */; };
+		CEA2EB5929BEE7D900828057 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2EB5729BEE7D900828057 /* StartViewController.swift */; };
+		CEA2EB5A29BEE7D900828057 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA2EB5829BEE7D900828057 /* StartViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16132340048426FD3680FF51 /* Pods_JokeGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JokeGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		451828FBD5A5B3D4F45B95EB /* Pods-JokeGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokeGenerator.release.xcconfig"; path = "Target Support Files/Pods-JokeGenerator/Pods-JokeGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		96CC17F113E276FAB485D649 /* Pods-JokeGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokeGenerator.debug.xcconfig"; path = "Target Support Files/Pods-JokeGenerator/Pods-JokeGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		CE786E3129C019F2008DBBD0 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		CE786E3929C01D72008DBBD0 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		CEA2EB4029BEDE6B00828057 /* JokeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA2EB4329BEDE6B00828057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEA2EB4529BEDE6B00828057 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEA2EB4729BEDE6B00828057 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEA2EB4A29BEDE6B00828057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEA2EB4C29BEDE6C00828057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA2EB4F29BEDE6C00828057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA2EB5129BEDE6C00828057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA2EB5729BEE7D900828057 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		CEA2EB5829BEE7D900828057 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,105 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD7758DE0CC476D8BFC546F /* Pods_JokeGenerator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08E0A11756E82D34E7687316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16132340048426FD3680FF51 /* Pods_JokeGenerator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ACF5C95066C7E2DE8737F3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96CC17F113E276FAB485D649 /* Pods-JokeGenerator.debug.xcconfig */,
+				451828FBD5A5B3D4F45B95EB /* Pods-JokeGenerator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE786E2C29C01877008DBBD0 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2EB5129BEDE6C00828057 /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		CE786E2D29C018FB008DBBD0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2EB4C29BEDE6C00828057 /* Assets.xcassets */,
+				CEA2EB4E29BEDE6C00828057 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE786E2E29C01904008DBBD0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE786E3029C019B0008DBBD0 /* Managers */,
+				CE786E2F29C01917008DBBD0 /* Modules */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CE786E2F29C01917008DBBD0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE786E3629C01CEE008DBBD0 /* Model */,
+				CE786E3829C01D41008DBBD0 /* View */,
+				CE786E3729C01D33008DBBD0 /* ViewModel */,
+				CEA2EB5729BEE7D900828057 /* StartViewController.swift */,
+				CEA2EB5829BEE7D900828057 /* StartViewController.xib */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE786E3029C019B0008DBBD0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CE786E3129C019F2008DBBD0 /* RequestManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CE786E3629C01CEE008DBBD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE786E3929C01D72008DBBD0 /* Joke.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE786E3729C01D33008DBBD0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE786E3829C01D41008DBBD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CEA2EB3729BEDE6B00828057 = {
 			isa = PBXGroup;
 			children = (
 				CEA2EB4229BEDE6B00828057 /* JokeGenerator */,
 				CEA2EB4129BEDE6B00828057 /* Products */,
+				9ACF5C95066C7E2DE8737F3A /* Pods */,
+				08E0A11756E82D34E7687316 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				CEA2EB4329BEDE6B00828057 /* AppDelegate.swift */,
-				CEA2EB4529BEDE6B00828057 /* SceneDelegate.swift */,
-				CEA2EB4729BEDE6B00828057 /* ViewController.swift */,
-				CEA2EB4929BEDE6B00828057 /* Main.storyboard */,
-				CEA2EB4C29BEDE6C00828057 /* Assets.xcassets */,
-				CEA2EB4E29BEDE6C00828057 /* LaunchScreen.storyboard */,
-				CEA2EB5129BEDE6C00828057 /* Info.plist */,
+				CE786E2E29C01904008DBBD0 /* Sources */,
+				CE786E2D29C018FB008DBBD0 /* Resources */,
+				CE786E2C29C01877008DBBD0 /* Configs */,
 			);
 			path = JokeGenerator;
 			sourceTree = "<group>";
@@ -74,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA2EB5429BEDE6C00828057 /* Build configuration list for PBXNativeTarget "JokeGenerator" */;
 			buildPhases = (
+				2779B7F1EA0F094E00FA176A /* [CP] Check Pods Manifest.lock */,
 				CEA2EB3C29BEDE6B00828057 /* Sources */,
 				CEA2EB3D29BEDE6B00828057 /* Frameworks */,
 				CEA2EB3E29BEDE6B00828057 /* Resources */,
+				C3266D8AFEED057684F344B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +220,69 @@
 			files = (
 				CEA2EB5029BEDE6C00828057 /* LaunchScreen.storyboard in Resources */,
 				CEA2EB4D29BEDE6C00828057 /* Assets.xcassets in Resources */,
-				CEA2EB4B29BEDE6B00828057 /* Main.storyboard in Resources */,
+				CEA2EB5A29BEE7D900828057 /* StartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2779B7F1EA0F094E00FA176A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JokeGenerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3266D8AFEED057684F344B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JokeGenerator/Pods-JokeGenerator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JokeGenerator/Pods-JokeGenerator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JokeGenerator/Pods-JokeGenerator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEA2EB3C29BEDE6B00828057 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA2EB4829BEDE6B00828057 /* ViewController.swift in Sources */,
+				CE786E3229C019F2008DBBD0 /* RequestManager.swift in Sources */,
 				CEA2EB4429BEDE6B00828057 /* AppDelegate.swift in Sources */,
-				CEA2EB4629BEDE6B00828057 /* SceneDelegate.swift in Sources */,
+				CE786E3A29C01D72008DBBD0 /* Joke.swift in Sources */,
+				CEA2EB5929BEE7D900828057 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEA2EB4929BEDE6B00828057 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEA2EB4A29BEDE6B00828057 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEA2EB4E29BEDE6C00828057 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +410,7 @@
 		};
 		CEA2EB5529BEDE6C00828057 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CC17F113E276FAB485D649 /* Pods-JokeGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,12 +418,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Y42CSS8U6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JokeGenerator/Info.plist;
+				INFOPLIST_FILE = JokeGenerator/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +431,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Viktoriya.JokeGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CEA2EB5629BEDE6C00828057 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451828FBD5A5B3D4F45B95EB /* Pods-JokeGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,12 +450,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Y42CSS8U6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JokeGenerator/Info.plist;
+				INFOPLIST_FILE = JokeGenerator/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +463,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Viktoriya.JokeGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
