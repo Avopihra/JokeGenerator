@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let vc = UIViewController(nibName: "StartViewController", bundle: nil)
+        let vc = UIViewController(nibName: "MainViewController", bundle: nil)
         
         showRootController(vc)
         return true

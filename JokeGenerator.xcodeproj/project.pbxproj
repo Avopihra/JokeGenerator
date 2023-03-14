@@ -10,11 +10,12 @@
 		7BD7758DE0CC476D8BFC546F /* Pods_JokeGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16132340048426FD3680FF51 /* Pods_JokeGenerator.framework */; };
 		CE786E3229C019F2008DBBD0 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE786E3129C019F2008DBBD0 /* RequestManager.swift */; };
 		CE786E3A29C01D72008DBBD0 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE786E3929C01D72008DBBD0 /* Joke.swift */; };
+		CE786E3C29C06822008DBBD0 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE786E3B29C06822008DBBD0 /* JokeViewModel.swift */; };
 		CEA2EB4429BEDE6B00828057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2EB4329BEDE6B00828057 /* AppDelegate.swift */; };
 		CEA2EB4D29BEDE6C00828057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA2EB4C29BEDE6C00828057 /* Assets.xcassets */; };
 		CEA2EB5029BEDE6C00828057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA2EB4E29BEDE6C00828057 /* LaunchScreen.storyboard */; };
-		CEA2EB5929BEE7D900828057 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2EB5729BEE7D900828057 /* StartViewController.swift */; };
-		CEA2EB5A29BEE7D900828057 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA2EB5829BEE7D900828057 /* StartViewController.xib */; };
+		CEA2EB5929BEE7D900828057 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2EB5729BEE7D900828057 /* MainViewController.swift */; };
+		CEA2EB5A29BEE7D900828057 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA2EB5829BEE7D900828057 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +24,14 @@
 		96CC17F113E276FAB485D649 /* Pods-JokeGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokeGenerator.debug.xcconfig"; path = "Target Support Files/Pods-JokeGenerator/Pods-JokeGenerator.debug.xcconfig"; sourceTree = "<group>"; };
 		CE786E3129C019F2008DBBD0 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		CE786E3929C01D72008DBBD0 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		CE786E3B29C06822008DBBD0 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
 		CEA2EB4029BEDE6B00828057 /* JokeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA2EB4329BEDE6B00828057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA2EB4C29BEDE6C00828057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA2EB4F29BEDE6C00828057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA2EB5129BEDE6C00828057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEA2EB5729BEE7D900828057 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		CEA2EB5829BEE7D900828057 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		CEA2EB5729BEE7D900828057 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CEA2EB5829BEE7D900828057 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +95,6 @@
 				CE786E3629C01CEE008DBBD0 /* Model */,
 				CE786E3829C01D41008DBBD0 /* View */,
 				CE786E3729C01D33008DBBD0 /* ViewModel */,
-				CEA2EB5729BEE7D900828057 /* StartViewController.swift */,
-				CEA2EB5829BEE7D900828057 /* StartViewController.xib */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -118,6 +118,7 @@
 		CE786E3729C01D33008DBBD0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CE786E3B29C06822008DBBD0 /* JokeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -125,6 +126,8 @@
 		CE786E3829C01D41008DBBD0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CEA2EB5729BEE7D900828057 /* MainViewController.swift */,
+				CEA2EB5829BEE7D900828057 /* MainViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,7 +223,7 @@
 			files = (
 				CEA2EB5029BEDE6C00828057 /* LaunchScreen.storyboard in Resources */,
 				CEA2EB4D29BEDE6C00828057 /* Assets.xcassets in Resources */,
-				CEA2EB5A29BEE7D900828057 /* StartViewController.xib in Resources */,
+				CEA2EB5A29BEE7D900828057 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE786E3C29C06822008DBBD0 /* JokeViewModel.swift in Sources */,
 				CE786E3229C019F2008DBBD0 /* RequestManager.swift in Sources */,
 				CEA2EB4429BEDE6B00828057 /* AppDelegate.swift in Sources */,
 				CE786E3A29C01D72008DBBD0 /* Joke.swift in Sources */,
-				CEA2EB5929BEE7D900828057 /* StartViewController.swift in Sources */,
+				CEA2EB5929BEE7D900828057 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
