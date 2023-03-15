@@ -14,7 +14,7 @@ protocol RequestManagerProtocol {
 }
 
 class RequestManager: RequestManagerProtocol {
-    let baseURL = URL(string: "https://official-joke-api.appspot.com/random_joke")!
+    let baseURL = URL(string: "https://official-joke-api.appspot.com/random_ten")!
     let session = URLSession(configuration: .default)
     var dataTask: URLSessionDataTask? = nil
     
@@ -22,7 +22,7 @@ class RequestManager: RequestManagerProtocol {
         return Observable<T>.create { observer in
             self.dataTask = self.session.dataTask(with: self.baseURL, completionHandler: { (data, response, error) in
                 do {
-                    let model: Joke = try JSONDecoder().decode(Joke.self, from: data ?? Data())
+                    let model: [Joke] = try JSONDecoder().decode([Joke].self, from: data ?? Data())
                     observer.onNext(model as! T)
                 } catch let error {
                     observer.onError(error)

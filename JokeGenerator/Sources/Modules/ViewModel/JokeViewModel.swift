@@ -11,10 +11,10 @@ import RxCocoa
 
 struct JokeDetailModel {
     var data = Joke(type: "type", setup: "setup", punchline: "punchline", id: 0)
-    var isFunny: BehaviorRelay<Bool> = BehaviorRelay(value: false)
-    var isFunnyObservable: Observable<Bool> {
-        return isFunny.asObservable()
-    }
+//    var isFunny: BehaviorRelay<Bool> = BehaviorRelay(value: false)
+//    var isFunnyObservable: Observable<Bool> {
+//        return isFunny.asObservable()
+//    }
 }
 
 class JokeViewModel {

@@ -8,20 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		7BD7758DE0CC476D8BFC546F /* Pods_JokeGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16132340048426FD3680FF51 /* Pods_JokeGenerator.framework */; };
+		CE50364829C1B1E800DF306C /* StartViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE50364729C1B1E800DF306C /* StartViewController.storyboard */; };
+		CE50364B29C1BBFE00DF306C /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50364A29C1BBFE00DF306C /* UIViewController+Extension.swift */; };
 		CE786E3229C019F2008DBBD0 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE786E3129C019F2008DBBD0 /* RequestManager.swift */; };
 		CE786E3A29C01D72008DBBD0 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE786E3929C01D72008DBBD0 /* Joke.swift */; };
 		CE786E3C29C06822008DBBD0 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE786E3B29C06822008DBBD0 /* JokeViewModel.swift */; };
 		CEA2EB4429BEDE6B00828057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2EB4329BEDE6B00828057 /* AppDelegate.swift */; };
 		CEA2EB4D29BEDE6C00828057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA2EB4C29BEDE6C00828057 /* Assets.xcassets */; };
 		CEA2EB5029BEDE6C00828057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA2EB4E29BEDE6C00828057 /* LaunchScreen.storyboard */; };
-		CEA2EB5929BEE7D900828057 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2EB5729BEE7D900828057 /* MainViewController.swift */; };
-		CEA2EB5A29BEE7D900828057 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA2EB5829BEE7D900828057 /* MainViewController.xib */; };
+		CEA2EB5929BEE7D900828057 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2EB5729BEE7D900828057 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16132340048426FD3680FF51 /* Pods_JokeGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JokeGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		451828FBD5A5B3D4F45B95EB /* Pods-JokeGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokeGenerator.release.xcconfig"; path = "Target Support Files/Pods-JokeGenerator/Pods-JokeGenerator.release.xcconfig"; sourceTree = "<group>"; };
 		96CC17F113E276FAB485D649 /* Pods-JokeGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokeGenerator.debug.xcconfig"; path = "Target Support Files/Pods-JokeGenerator/Pods-JokeGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		CE50364729C1B1E800DF306C /* StartViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartViewController.storyboard; sourceTree = "<group>"; };
+		CE50364A29C1BBFE00DF306C /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		CE786E3129C019F2008DBBD0 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		CE786E3929C01D72008DBBD0 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		CE786E3B29C06822008DBBD0 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
@@ -30,8 +33,7 @@
 		CEA2EB4C29BEDE6C00828057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA2EB4F29BEDE6C00828057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA2EB5129BEDE6C00828057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEA2EB5729BEE7D900828057 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		CEA2EB5829BEE7D900828057 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		CEA2EB5729BEE7D900828057 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CE50364929C1BBE200DF306C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE50364A29C1BBFE00DF306C /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CE786E2C29C01877008DBBD0 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 		CE786E2E29C01904008DBBD0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				CE50364929C1BBE200DF306C /* Extensions */,
 				CE786E3029C019B0008DBBD0 /* Managers */,
 				CE786E2F29C01917008DBBD0 /* Modules */,
 			);
@@ -126,8 +137,8 @@
 		CE786E3829C01D41008DBBD0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CEA2EB5729BEE7D900828057 /* MainViewController.swift */,
-				CEA2EB5829BEE7D900828057 /* MainViewController.xib */,
+				CEA2EB5729BEE7D900828057 /* StartViewController.swift */,
+				CE50364729C1B1E800DF306C /* StartViewController.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -222,8 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA2EB5029BEDE6C00828057 /* LaunchScreen.storyboard in Resources */,
+				CE50364829C1B1E800DF306C /* StartViewController.storyboard in Resources */,
 				CEA2EB4D29BEDE6C00828057 /* Assets.xcassets in Resources */,
-				CEA2EB5A29BEE7D900828057 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE50364B29C1BBFE00DF306C /* UIViewController+Extension.swift in Sources */,
 				CE786E3C29C06822008DBBD0 /* JokeViewModel.swift in Sources */,
 				CE786E3229C019F2008DBBD0 /* RequestManager.swift in Sources */,
 				CEA2EB4429BEDE6B00828057 /* AppDelegate.swift in Sources */,
 				CE786E3A29C01D72008DBBD0 /* Joke.swift in Sources */,
-				CEA2EB5929BEE7D900828057 /* MainViewController.swift in Sources */,
+				CEA2EB5929BEE7D900828057 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
